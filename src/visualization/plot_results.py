@@ -57,7 +57,7 @@ def main():
             cross_val = cross_val_score(estimator=model,
                                         X=X,y=y,
                                         cv=10,scoring='r2',
-                                        n_jobs=-1)
+                                        n_jobs=1)
             x_axis_list = [f'fold_{axis}' for axis in range(1,11)]
             y_axis_list = list(cross_val)  
         else:
