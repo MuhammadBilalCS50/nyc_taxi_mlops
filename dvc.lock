@@ -141,8 +141,8 @@ stages:
       size: 1838
     params:
       params.yaml:
-        train_model.random_forest_regressor.max_depth: 6
-        train_model.random_forest_regressor.n_estimators: 40
+        train_model.random_forest_regressor.max_depth: 4
+        train_model.random_forest_regressor.n_estimators: 30
         train_model.random_forest_regressor.n_jobs: 1
         train_model.random_forest_regressor.verbose: 2
     outs:
