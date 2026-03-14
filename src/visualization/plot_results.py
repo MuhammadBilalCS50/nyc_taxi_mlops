@@ -8,7 +8,7 @@ from sklearn.model_selection import cross_val_score
 
 
 TARGET = 'trip_duration'
-model_name = 'xgbreg.joblib'
+model_name = 'random_forest_regressor.joblib'
 
 
 def load_dataframe(path):
